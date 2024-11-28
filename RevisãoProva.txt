@@ -1,0 +1,37 @@
+Histórico dos S.O.s: Os sistemas operacionais surgiram como programas básicos para gerenciar hardware e executar comandos. No início, eram sistemas monoprogramados, executando um único processo de cada vez. Com o tempo, evoluíram para sistemas multiprogramados, que podiam lidar com vários programas simultaneamente. A introdução do timesharing nos anos 60 trouxe interatividade, permitindo que múltiplos usuários acessassem o sistema em terminais independentes. Nos anos 80, surgiram sistemas operacionais com interfaces gráficas, como o Windows e o macOS. Hoje, os sistemas operacionais modernos, como Linux, Android e Windows, suportam computação distribuída, virtualização e cloud computing.
+
+Multiprogramação e Timesharing: A multiprogramação é uma técnica usada para maximizar a utilização do processador, carregando vários programas na memória e alternando entre eles. Isso reduz o tempo ocioso da CPU. O timesharing é uma extensão da multiprogramação, que divide o tempo do processador em pequenos intervalos (time slices), alternando entre os processos de maneira tão rápida que os usuários percebem como se todos estivessem sendo executados simultaneamente. Esse conceito é fundamental para sistemas interativos.
+
+Interface gráfica (GUI): É uma forma de interação entre o usuário e o computador, utilizando elementos visuais como janelas, botões, ícones e menus. As interfaces gráficas foram projetadas para serem mais intuitivas e acessíveis, substituindo a complexidade das interfaces de linha de comando (CLI). Elas incluem sistemas como o Windows, macOS e os ambientes gráficos de Linux, permitindo manipulação por cliques e gestos, em vez de apenas comandos digitados.
+
+Processador: O processador, ou CPU (Central Processing Unit), é o componente que realiza os cálculos necessários para executar programas. Ele possui várias partes, como a Unidade de Controle, que coordena as operações, e a Unidade Lógica e Aritmética (ALU), que realiza cálculos matemáticos e lógicos. O desempenho do processador é medido em termos de sua frequência (GHz) e sua arquitetura (número de núcleos e threads), determinando a capacidade de multitarefa e velocidade.
+
+Armazenamento: Refere-se aos dispositivos e tecnologias utilizados para guardar dados de forma permanente ou temporária. Exemplos incluem discos rígidos (HDD), unidades de estado sólido (SSD), memórias flash e armazenamento em nuvem. Os sistemas operacionais gerenciam os diferentes tipos de armazenamento através de sistemas de arquivos como NTFS, FAT32 e ext4, otimizando a leitura e escrita de dados.
+
+Memória: A memória principal (RAM) é uma forma de armazenamento volátil usada para manter dados temporários enquanto os programas estão em execução. Ela é mais rápida que os discos rígidos ou SSDs, mas é apagada quando o computador é desligado. O gerenciamento de memória pelo sistema operacional é essencial para garantir que cada processo receba a quantidade necessária de espaço, evitando conflitos ou desperdício.
+
+CPU: A CPU é composta por núcleos, que podem processar instruções independentemente. Processadores modernos possuem múltiplos núcleos, suportando multitarefa com maior eficiência. A CPU também possui cache (memória ultrarrápida) para armazenar dados usados com frequência, reduzindo o tempo de acesso. Tecnologias como hyper-threading permitem que um núcleo execute múltiplos threads, melhorando o desempenho.
+
+Barramento: O barramento é um sistema de comunicação que conecta os componentes do computador, como CPU, memória, e dispositivos de entrada/saída. Ele pode ser classificado como barramento de dados (transfere dados), barramento de endereço (localiza os dados) e barramento de controle (coordena as operações). Exemplos incluem o PCI Express (para placas de vídeo e outros dispositivos) e SATA (para armazenamento).
+
+Interface: Refere-se ao ponto de interação entre o usuário e o computador ou entre dois componentes do sistema. Pode ser física (conectores e portas) ou lógica, como interfaces gráficas e de linha de comando. Interfaces bem projetadas são essenciais para garantir que o sistema seja acessível e eficiente.
+
+CLI (Command Line Interface): É uma interface onde o usuário interage com o sistema operacional digitando comandos. Embora menos intuitiva que a GUI, a CLI oferece maior controle e eficiência para tarefas avançadas, como gerenciamento de arquivos, scripts e automação de processos. Exemplos incluem o terminal no Linux e o PowerShell no Windows.
+
+Shell: O shell é o programa que interpreta os comandos do usuário e os traduz para instruções que o sistema operacional pode executar. No Linux, exemplos incluem o bash e zsh, enquanto no Windows, há o PowerShell. Ele pode ser usado tanto para tarefas interativas quanto para execução de scripts.
+
+Shell Script: São arquivos contendo uma sequência de comandos do shell, usados para automatizar tarefas rotineiras, como backups, manutenção de sistemas e configurações. Esses scripts podem incluir lógica de programação, como loops e condicionais, tornando-os poderosos para gerenciar sistemas.
+
+Gerências (4): Referem-se às quatro principais áreas de gerenciamento de um sistema operacional:
+
+Gerência de Processador: Controla quais processos recebem tempo de CPU.
+Gerência de Memória: Garante que cada processo tenha acesso seguro à memória necessária.
+Gerência de Dispositivos: Coordena o uso de dispositivos de entrada/saída.
+Gerência de Arquivos: Administra o armazenamento e acesso a arquivos no sistema.
+Threads: Threads são subunidades de um processo que podem ser executadas independentemente. Um programa pode ter múltiplas threads para realizar tarefas simultâneas, como carregar dados em segundo plano enquanto processa informações no primeiro plano. Isso melhora o desempenho e a responsividade do sistema.
+
+Multiprocessamento: Refere-se ao uso de vários processadores ou núcleos em um único sistema para executar processos simultaneamente. Isso aumenta o desempenho geral e é comumente usado em servidores e sistemas de alto desempenho.
+
+BCP (Bloco de Controle de Processos): É uma estrutura de dados usada pelo sistema operacional para armazenar informações sobre os processos, como estado, prioridade, registradores, e alocação de memória. Ele é essencial para a troca eficiente de contexto entre processos.
+
+Recursos e serviços principais do Windows Server: Incluem funcionalidades como Active Directory (gerenciamento de identidades e acessos), serviços de virtualização (Hyper-V), gerenciamento de políticas de grupo, serviços de arquivos e impressão, suporte a DNS/DHCP e ferramentas para administração remota. Esses recursos são amplamente usados em ambientes empresariais.
